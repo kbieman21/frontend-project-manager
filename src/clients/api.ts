@@ -1,0 +1,9 @@
+import axios from "axios";
+
+
+export const apiClient = axios.create({
+    baseURL: 'http://localhost:4000',
+    headers:{
+        Authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjY5MzFjYjg0NzViYTYwZGZmNDVkM2NjZiIsInVzZXJuYW1lIjoidXNlcjExMSIsImVtYWlsIjoidXNlcjExMUB0ZXN0LmNvbSIsInJvbGUiOiJ1c2VyIn0sImlhdCI6MTc2NDk1Njg1MywiZXhwIjoxNzY0OTY0MDUzfQ.7zCE6-5GRJ1JIuf0q2SavtUbs_lHJb1tCxNFiv9UIrA"
+    }
+});
