@@ -5,6 +5,8 @@ import ProjectsPage from "./pages/ProjectsPage";
 import NavBar from "./components/NavBar";
 import ProjectDetailsPage from "./pages/ProjectDetailsPage";
 
+// console.log(import.meta.env.VITE_BACKEND_URL);
+
 function App() {
   return (
     <>
